@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Split the Bill</string>
+    <string name="OK">OK</string>
+    <string name="action_about">Info</string>
+    <string name="action_add">Hinzufügen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_help">Hilfe</string>
+    <string name="author_capitalized_colon">Autor:</string>
+    <string name="button_even">Rechnung gleichmäßig aufteilen</string>
+    <string name="button_show_transfers">Geldtransfers anzeigen</string>
+    <string name="button_uneven">Individuelle Rechnungen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="contact_me_exclamation">Kontaktiere mich!</string>
+    <string name="dialog_title_add_payer">Person Hinzufügen</string>
+    <string name="dialog_title_edit_payer">Person Bearbeiten</string>
+    <string name="double_zero">00</string>
+    <string name="support_email_address_valentin">valentin.hartmann.dev+support@gmail.com</string>
+    <string name="error_bill_too_high">Die Gesamtrechnung ist höher als das gezahlte Geld. Überprüf die Werte!</string>
+    <string name="error_paid_too_high">Das gezahlte Geld ist höher als die Gesamtrechnung. Überprüf die Werte!</string>
+    <string name="feedback_question">Fragen/Feedback?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="like_app_question">Gefällt dir die App?</string>
+    <string name="payer_already_paid_capitalized">Bereits Gezahlt</string>
+    <string name="payer_individual_bill_capitalized">Rechnung</string>
+    <string name="payer_name_capitalized">Name</string>
+    <string name="question_bill">Gesamtrechnung</string>
+    <string name="rate_it_exclamation">Bewerte sie!</string>
+    <string name="save">Speichern</string>
+    <string name="seven_zeros">0000000</string>
+    <string name="title_activity_about">Info</string>
+    <string name="title_activity_action_bar_base">ActionBarBaseActivity</string>
+    <string name="title_activity_payer_list">Liste der Personen</string>
+    <string name="title_activity_transfer_list">Transfers</string>
+    <string name="valentin_hartmann">Valentin Hartmann</string>
+    <string name="version_capitalized">"Version: "</string>
+    <string name="warning_duplicate_payer_first">"Eine Person mit dem Namen "</string>
+    <string name="warning_duplicate_payer_second">" existiert bereits!"</string>
+    <string name="zero_hint">0</string>
+</resources>

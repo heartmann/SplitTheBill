@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Split the Bill</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="button_even">Split the bill equally</string>
+    <string name="button_uneven">Individual bills</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="double_zero">00</string>
+    <string name="zero_hint">0</string>
+    <string name="question_bill">Total Bill</string>
+    <string name="title_activity_payer_list">List of Persons</string>
+    <string name="payer_name_capitalized">Name</string>
+    <string name="payer_already_paid_capitalized">Already Paid</string>
+    <string name="title_activity_action_bar_base">ActionBarBaseActivity</string>
+    <string name="action_add">Add</string>
+    <string name="save">Save</string>
+    <string name="warning_duplicate_payer_first">"A Person of the name "</string>
+    <string name="warning_duplicate_payer_second">" already exists!"</string>
+    <string name="dialog_title_edit_payer">Edit Person</string>
+    <string name="dialog_title_add_payer">Add Person</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_transfer_list">Transfers</string>
+    <string name="payer_individual_bill_capitalized">Bill</string>
+    <string name="error_bill_too_high">The overall bill is higher than the paid money. Check the values!</string>
+    <string name="error_paid_too_high">The paid money is higher than the overall bill. Check the values!</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="button_show_transfers">Show money transfers</string>
+    <string name="title_activity_about">About</string>
+    <string name="version_capitalized">"Version: "</string>
+    <string name="author_capitalized_colon">Author:</string>
+    <string name="valentin_hartmann">Valentin Hartmann</string>
+    <string name="feedback_question">Questions/Feedback?</string>
+    <string name="contact_me_exclamation">Contact me!</string>
+    <string name="like_app_question">Like the app?</string>
+    <string name="rate_it_exclamation">Rate it!</string>
+    <string name="support_email_address_valentin">valentin.hartmann.dev+support@gmail.com</string>
+    <string name="seven_zeros">0000000</string>
+</resources>

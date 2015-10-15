@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:showDividers="middle">
+
+    <Button
+        android:id="@+id/button_even"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="startEven"
+        android:text="@string/button_even"
+        android:layout_weight="1"
+        style="?android:borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/button_uneven"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="startUneven"
+        android:text="@string/button_uneven"
+        android:layout_weight="1"
+        style="?android:borderlessButtonStyle"/>
+
+</LinearLayout>

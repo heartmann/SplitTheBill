@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context="com.gmail.dev.hartmann.valentin.splitthebill.PayerListActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_payer_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/button"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="showTransfers"
+        android:text="@string/button_show_transfers" />
+
+</LinearLayout>

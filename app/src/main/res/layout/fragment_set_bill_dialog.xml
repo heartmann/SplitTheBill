@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.gmail.dev.hartmann.valentin.splitthebill.SetBillDialogFragment">
+
+    <EditText
+        android:id="@+id/editText_paid_amount_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:hint="@string/zero_hint"
+        android:inputType="number"
+        android:maxLength="7" />
+
+    <TextView
+        android:id="@+id/textView_decimal_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_paid_amount_first"
+        android:layout_alignBottom="@+id/editText_paid_amount_first"
+        android:layout_toEndOf="@+id/editText_paid_amount_first"
+        android:layout_toRightOf="@+id/editText_paid_amount_first"
+        android:text="."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_paid_amount_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView_decimal_separator"
+        android:layout_toRightOf="@+id/textView_decimal_separator"
+        android:hint="@string/double_zero"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <TextView
+        android:id="@+id/textView_currency_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_paid_amount_second"
+        android:layout_alignBottom="@+id/editText_paid_amount_second"
+        android:layout_toEndOf="@+id/editText_paid_amount_second"
+        android:layout_toRightOf="@+id/editText_paid_amount_second"
+        android:text="$"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
